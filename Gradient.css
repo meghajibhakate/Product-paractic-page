@@ -1,0 +1,90 @@
+
+.container{
+    margin-left: 29%;
+    margin-top: 30px;
+}
+
+#box1 {
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    background: radial-gradient(red, yellow);
+    /*Ellipse (this is default):*/
+}
+
+#box2 {
+    margin: 10px;
+    width: 400px;
+    height: 200px;
+    background: radial-gradient(red 15%, yellow 30%, green 45%);
+}
+
+#box3 {
+    margin: 10px;
+    width: 400px;
+    height: 200px;
+    background: radial-gradient(red,yellow,black);
+}
+
+#box4 {
+    margin: 10px;
+    width: 400px;
+    height: 200px;
+    background-image: radial-gradient(circle, red 35%, orange 50%, black 60%)
+}
+
+#box5 {
+    width: 550px;
+    height: 300px;
+    background-image: radial-gradient(circle at top left,#03512e 20%,#d2e524 30%,red 50%,#7cec45 60% );
+}
+
+#box6 {
+    width: 550px;
+    height: 300px;
+    background-image: radial-gradient(circle at top right,#03512e 20%,#d2e524 30%,red 50%,#7cec45 60% );
+
+}
+#box7{
+    width: 550px;
+    height: 300px;
+    background-image: radial-gradient(circle at bottom left,#03512e 20%,#d2e524 30%,red 50%,#7cec45 60% );
+
+}
+#box8 {
+    width: 550px;
+    height: 300px;
+    background-image: radial-gradient(circle at bottom right,#03512e 20%,#d2e524 30%,red 50%,#7cec45 60% );
+
+}
+#box9 {
+    margin: 10px;
+    width: 600px;
+    height: 280px;
+    background-image: radial-gradient( closest-side at 30% 40%,red, yellow, green);
+}
+
+#box10 {
+    margin: 10px;
+    width: 600px;
+    height: 280px;
+    background-image: radial-gradient( closest-corner at 30% 40%,red, yellow, green);
+}
+#box11{
+    margin: 10px;
+    width: 600px;
+    height: 280px;
+    background-image: radial-gradient( farthest-side at 30% 40%,red, yellow, green);
+}
+#box12 {
+    margin: 10px;
+    width: 600px;
+    height: 280px;
+    background-image: radial-gradient(farthest-corner at 30% 40%,red, yellow, green);
+}
+#box13 {
+    margin: 10px;
+    width: 700px;
+    height: 400px;
+    background-image: repeating-radial-gradient( red, orange 10%, black 15%);
+}
